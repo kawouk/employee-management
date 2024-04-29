@@ -1,0 +1,12 @@
+.controller {
+  @include flex-box(row, unset, center, 1rem);
+  width: 100%;
+  &__search {
+    flex: 3;
+  }
+  &__btns {
+    flex: 1;
+    @include flex-box(row, unset, center, 1rem);
+    margin-top: -1rem;
+  }
+}

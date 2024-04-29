@@ -1,0 +1,18 @@
+@mixin flex-box($flex-direction, $justify, $align, $gap) {
+  display: flex;
+  justify-content: $justify;
+  align-items: $align;
+  gap: $gap;
+}
+@mixin flex-center(){
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@mixin label-styles() {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  transition: var(--transition);
+  color: var(--clr-grey);
+}

@@ -1,0 +1,23 @@
+.counter-box {
+  width: 200px;
+  height: 150px;
+  background-color: $white;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+.counter {
+  font-size: 36px;
+  font-weight: bold;
+  color: $primary-color;
+}
+
+.title {
+  font-size: 18px;
+  color: $grey-color;
+  margin-top: 10px;
+}

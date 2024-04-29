@@ -1,0 +1,45 @@
+.dropdown-enter-active,
+.dropdown-leave-active {
+  transition: opacity 0.5s;
+}
+.dropdown-enter,
+.dropdown-leave-to {
+  opacity: 0;
+}
+.edit-employee {
+  position: relative;
+  &__dropdown {
+    position: absolute;
+    top: 100%;
+    left: -1rem;
+    transform: translateX(-50%);
+    background: white;
+    z-index: 99;
+    border-radius: $rounded-gentle;
+    box-shadow: 1px 1px 4px $primary-color-05;
+    list-style: none;
+    li {
+      @include flex-box(row, space-between, center, 0.5rem);
+      color: $primary-color;
+      padding: 0.5rem 1rem;
+      border-radius: $rounded-gentle;
+      font-size: 0.8rem;
+      transition: $transition;
+      text-transform: capitalize;
+      &:hover {
+        background: $secondary-color;
+        color: white;
+      }
+      &.delete {
+        color: $error-color;
+        &:hover{
+          background-color: $error-color;
+          color: $white;
+        }
+      }
+      &.active-emp{
+        transition: $transition;
+      }
+    }
+  }
+}

@@ -1,0 +1,60 @@
+.add-form {
+  margin: 1rem;
+  .v-list-subheader {
+    padding-inline-start: 0 !important;
+    font-size: 1rem;
+  }
+  .v-input {
+    flex: 1;
+  }
+  .name-section {
+    span {
+      @include flex-box(row, unset, center, 0.4rem);
+      width: 100%;
+    }
+    .dob-input {
+      flex: 1;
+      background-color: $white;
+      padding: 0.65rem;
+      margin-top: -1.2rem;
+      border-radius: $rounded-gentle;
+    }
+    .phone-input {
+      position: relative;
+      z-index: 9999;
+      label {
+        @include label-styles;
+        margin-right: 6rem;
+      }
+
+      .vue-tel-input {
+        :deep(.vti__dropdown) {
+          padding: 0;
+        }
+        :deep(.vti__dropdown-list.below) {
+          right: 0;
+          text-align: left !important;
+          max-width: 340px;
+          border: var(--rounded-radius);
+          box-shadow: var(--box-shadow-faded);
+        }
+        :deep(.vti__dropdown-item) {
+          font-family: var(--font-main);
+          direction: ltr;
+          * {
+            font-weight: 100 !important;
+          }
+        }
+        :deep(.vti__input) {
+          direction: rtl;
+          background-color: transparent;
+        }
+      }
+      .input-focused {
+        border: 1px solid $primary-color;
+        outline: none !important;
+        box-shadow: none;
+      }
+    }
+  }
+}

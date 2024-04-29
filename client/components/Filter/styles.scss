@@ -1,0 +1,11 @@
+.list-item {
+  text-transform: capitalize;
+  cursor: pointer;
+  @include flex-box(row, unset, center, 0.4rem);
+}
+.filter-inner-btn {
+  padding: 0;
+  padding-left: 0.2rem;
+  text-transform: capitalize;
+  text-align: left;
+}

@@ -1,0 +1,44 @@
+.table {
+  width: 100%;
+  margin-bottom: 1rem;
+  color: $primary-color;
+  border-collapse: collapse;
+  .thead-dark {
+    th {
+      color: #fff;
+      background-color: $primary-color;
+    }
+  }
+  thead th {
+    vertical-align: bottom;
+    border-bottom: 2px solid #dee2e6;
+    text-align: left;
+    padding: 0.5rem 1rem;
+    text-transform: capitalize;
+  }
+  .employee-data {
+    td {
+      transition: $transition;
+      padding: 0.5rem 1rem;
+      &.active {
+        color: $success-color;
+      }
+      &.deactived {
+        color: $error-color;
+      }
+    }
+    &__edit {
+      @include flex-box(row, space-between, center, 0);
+    }
+    &__edit-icon {
+      color: $primary-color;
+    }
+  }
+}
+.table-striped {
+  tbody {
+    tr:nth-of-type(odd) {
+      background-color: rgba(0, 0, 0, 0.05);
+    }
+  }
+}

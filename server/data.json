@@ -1,0 +1,401 @@
+{
+  "employees": [
+    {
+      "id": "1",
+      "gender": "male",
+      "name": {
+        "title": "Mr",
+        "first": "Geneva",
+        "last": "King"
+      },
+      "location": {
+        "street": "959 Russell Street, Canterwood, Tennessee, 7566",
+        "city": "Tonopah",
+        "state": "Maine",
+        "country": "US",
+        "postcode": "<ReferenceError: zip is not defined>"
+      },
+      "email": "genevaking@nitracyr.com",
+      "dob": {
+        "date": "<ReferenceError: past is not defined>",
+        "age": 25
+      },
+      "registered": {
+        "date": "2021-08-22T02:38:11 -03:00",
+        "age": 6
+      },
+      "phone": "+1 (994) 456-3146",
+      "picture": {
+        "large": "http://placehold.it/32x32.jpg",
+        "medium": "http://placehold.it/32x32.jpg",
+        "thumbnail": "http://placehold.it/32x32.jpg"
+      },
+      "nat": "US",
+      "active": true,
+      "isActive": true
+    },
+    {
+      "id": "2",
+      "gender": "female",
+      "name": {
+        "title": "Mr",
+        "first": "Bridget",
+        "last": "Grant"
+      },
+      "location": {
+        "street": "361 Rutledge Street, Siglerville, Mississippi, 7834",
+        "city": "Moscow",
+        "state": "Connecticut",
+        "country": "US",
+        "postcode": "<ReferenceError: zip is not defined>"
+      },
+      "email": "bridgetgrant@nitracyr.com",
+      "dob": {
+        "date": "<ReferenceError: past is not defined>",
+        "age": 38
+      },
+      "registered": {
+        "date": "2015-12-15T10:08:20 -02:00",
+        "age": 5
+      },
+      "phone": "+1 (953) 583-3234",
+      "picture": {
+        "large": "http://placehold.it/32x32.jpg",
+        "medium": "http://placehold.it/32x32.jpg",
+        "thumbnail": "http://placehold.it/32x32.jpg"
+      },
+      "nat": "US",
+      "active": true
+    },
+    {
+      "id": "3",
+      "gender": "female",
+      "name": {
+        "title": "Ms",
+        "first": "Lori",
+        "last": "Benson"
+      },
+      "location": {
+        "street": "532 Applegate Court, Norvelt, Delaware, 2263",
+        "city": "Blue",
+        "state": "Indiana",
+        "country": "US",
+        "postcode": "<ReferenceError: zip is not defined>"
+      },
+      "email": "loribenson@nitracyr.com",
+      "dob": {
+        "date": "<ReferenceError: past is not defined>",
+        "age": 38
+      },
+      "registered": {
+        "date": "2015-12-03T08:13:22 -02:00",
+        "age": 7
+      },
+      "phone": "+1 (870) 537-3324",
+      "picture": {
+        "large": "http://placehold.it/32x32.jpg",
+        "medium": "http://placehold.it/32x32.jpg",
+        "thumbnail": "http://placehold.it/32x32.jpg"
+      },
+      "nat": "US",
+      "active": true
+    },
+    {
+      "id": "4",
+      "gender": "female",
+      "name": {
+        "title": "Mr",
+        "first": "Chris",
+        "last": "Duran"
+      },
+      "location": {
+        "street": "692 Girard Street, Thomasville, Alaska, 1217",
+        "city": "Taycheedah",
+        "state": "New Hampshire",
+        "country": "US",
+        "postcode": "<ReferenceError: zip is not defined>"
+      },
+      "email": "chrisduran@nitracyr.com",
+      "dob": {
+        "date": "<ReferenceError: past is not defined>",
+        "age": 27
+      },
+      "registered": {
+        "date": "2021-08-03T01:35:54 -03:00",
+        "age": 0
+      },
+      "phone": "+1 (902) 415-3218",
+      "picture": {
+        "large": "http://placehold.it/32x32.jpg",
+        "medium": "http://placehold.it/32x32.jpg",
+        "thumbnail": "http://placehold.it/32x32.jpg"
+      },
+      "nat": "US",
+      "active": true
+    },
+    {
+      "id": "5",
+      "gender": "female",
+      "name": {
+        "title": "Mrs",
+        "first": "Garner",
+        "last": "Lott"
+      },
+      "location": {
+        "street": "437 Nichols Avenue, Southview, Virgin Islands, 9571",
+        "city": "Goldfield",
+        "state": "Iowa",
+        "country": "US",
+        "postcode": "<ReferenceError: zip is not defined>"
+      },
+      "email": "garnerlott@nitracyr.com",
+      "dob": {
+        "date": "<ReferenceError: past is not defined>",
+        "age": 27
+      },
+      "registered": {
+        "date": "2014-05-04T02:19:33 -03:00",
+        "age": 4
+      },
+      "phone": "+1 (812) 598-3331",
+      "picture": {
+        "large": "http://placehold.it/32x32.jpg",
+        "medium": "http://placehold.it/32x32.jpg",
+        "thumbnail": "http://placehold.it/32x32.jpg"
+      },
+      "nat": "US",
+      "active": false
+    },
+    {
+      "id": "6",
+      "gender": "male",
+      "name": {
+        "title": "Mr",
+        "first": "Jenkins",
+        "last": "Delgado"
+      },
+      "location": {
+        "street": "285 Schaefer Street, Shaft, Puerto Rico, 2512",
+        "city": "Maplewood",
+        "state": "New Mexico",
+        "country": "US",
+        "postcode": "<ReferenceError: zip is not defined>"
+      },
+      "email": "jenkinsdelgado@nitracyr.com",
+      "dob": {
+        "date": "<ReferenceError: past is not defined>",
+        "age": 24
+      },
+      "registered": {
+        "date": "2018-03-09T09:09:56 -02:00",
+        "age": 5
+      },
+      "phone": "+1 (877) 480-2055",
+      "picture": {
+        "large": "http://placehold.it/32x32.jpg",
+        "medium": "http://placehold.it/32x32.jpg",
+        "thumbnail": "http://placehold.it/32x32.jpg"
+      },
+      "nat": "US",
+      "active": false
+    },
+    {
+      "id": "7",
+      "gender": "male",
+      "name": {
+        "title": "Mx",
+        "first": "Walsh",
+        "last": "Foster"
+      },
+      "location": {
+        "street": "689 Conway Street, Brenton, Guam, 9418",
+        "city": "Manchester",
+        "state": "Maryland",
+        "country": "US",
+        "postcode": "<ReferenceError: zip is not defined>"
+      },
+      "email": "walshfoster@nitracyr.com",
+      "dob": {
+        "date": "<ReferenceError: past is not defined>",
+        "age": 38
+      },
+      "registered": {
+        "date": "2015-08-18T04:33:13 -03:00",
+        "age": 0
+      },
+      "phone": "+1 (941) 544-2656",
+      "picture": {
+        "large": "http://placehold.it/32x32.jpg",
+        "medium": "http://placehold.it/32x32.jpg",
+        "thumbnail": "http://placehold.it/32x32.jpg"
+      },
+      "nat": "US",
+      "active": false
+    },
+    {
+      "id": "8",
+      "gender": "male",
+      "name": {
+        "title": "Mr",
+        "first": "Watkins",
+        "last": "Jennings"
+      },
+      "location": {
+        "street": "499 Rodney Street, Salvo, Michigan, 4877",
+        "city": "Martinsville",
+        "state": "Alabama",
+        "country": "US",
+        "postcode": "<ReferenceError: zip is not defined>"
+      },
+      "email": "watkinsjennings@nitracyr.com",
+      "dob": {
+        "date": "<ReferenceError: past is not defined>",
+        "age": 20
+      },
+      "registered": {
+        "date": "2017-02-01T09:53:53 -02:00",
+        "age": 8
+      },
+      "phone": "+1 (968) 571-2255",
+      "picture": {
+        "large": "http://placehold.it/32x32.jpg",
+        "medium": "http://placehold.it/32x32.jpg",
+        "thumbnail": "http://placehold.it/32x32.jpg"
+      },
+      "nat": "US",
+      "active": true
+    },
+    {
+      "id": "9",
+      "gender": "male",
+      "name": {
+        "title": "Mrs",
+        "first": "Ronda",
+        "last": "Gibson"
+      },
+      "location": {
+        "street": "370 Benson Avenue, Bartley, Kentucky, 8363",
+        "city": "Ladera",
+        "state": "Florida",
+        "country": "US",
+        "postcode": "<ReferenceError: zip is not defined>"
+      },
+      "email": "rondagibson@nitracyr.com",
+      "dob": {
+        "date": "<ReferenceError: past is not defined>",
+        "age": 39
+      },
+      "registered": {
+        "date": "2023-10-01T11:37:31 -03:00",
+        "age": 7
+      },
+      "phone": "+1 (905) 432-3667",
+      "picture": {
+        "large": "http://placehold.it/32x32.jpg",
+        "medium": "http://placehold.it/32x32.jpg",
+        "thumbnail": "http://placehold.it/32x32.jpg"
+      },
+      "nat": "US",
+      "active": true
+    },
+    {
+      "id": "10",
+      "gender": "female",
+      "name": {
+        "title": "Ms",
+        "first": "Lacy",
+        "last": "Hernandez"
+      },
+      "location": {
+        "street": "214 Richards Street, Malott, Oregon, 4249",
+        "city": "Forbestown",
+        "state": "Montana",
+        "country": "US",
+        "postcode": "<ReferenceError: zip is not defined>"
+      },
+      "email": "lacyhernandez@nitracyr.com",
+      "dob": {
+        "date": "<ReferenceError: past is not defined>",
+        "age": 27
+      },
+      "registered": {
+        "date": "2021-08-11T09:30:26 -03:00",
+        "age": 7
+      },
+      "phone": "+1 (867) 510-3824",
+      "picture": {
+        "large": "http://placehold.it/32x32.jpg",
+        "medium": "http://placehold.it/32x32.jpg",
+        "thumbnail": "http://placehold.it/32x32.jpg"
+      },
+      "nat": "US",
+      "active": true
+    },
+    {
+      "id": "11",
+      "gender": "female",
+      "name": {
+        "title": "Mx",
+        "first": "Luisa",
+        "last": "Nicholson"
+      },
+      "location": {
+        "street": "940 Hope Street, Martell, Virginia, 5797",
+        "city": "Davenport",
+        "state": "Louisiana",
+        "country": "US",
+        "postcode": "<ReferenceError: zip is not defined>"
+      },
+      "email": "luisanicholson@nitracyr.com",
+      "dob": {
+        "date": "<ReferenceError: past is not defined>",
+        "age": 40
+      },
+      "registered": {
+        "date": "2015-07-14T05:27:39 -03:00",
+        "age": 5
+      },
+      "phone": "+1 (957) 471-2923",
+      "picture": {
+        "large": "http://placehold.it/32x32.jpg",
+        "medium": "http://placehold.it/32x32.jpg",
+        "thumbnail": "http://placehold.it/32x32.jpg"
+      },
+      "nat": "US",
+      "active": true
+    },
+    {
+      "id": "12",
+      "gender": "female",
+      "name": {
+        "title": "Mr",
+        "first": "Kristie",
+        "last": "Knapp"
+      },
+      "location": {
+        "street": "647 Johnson Street, Frizzleburg, Massachusetts, 2892",
+        "city": "Enoree",
+        "state": "Marshall Islands",
+        "country": "US",
+        "postcode": "<ReferenceError: zip is not defined>"
+      },
+      "email": "kristieknapp@nitracyr.com",
+      "dob": {
+        "date": "<ReferenceError: past is not defined>",
+        "age": 26
+      },
+      "registered": {
+        "date": "2016-03-18T08:16:17 -02:00",
+        "age": 5
+      },
+      "phone": "+1 (987) 557-2584",
+      "picture": {
+        "large": "http://placehold.it/32x32.jpg",
+        "medium": "http://placehold.it/32x32.jpg",
+        "thumbnail": "http://placehold.it/32x32.jpg"
+      },
+      "nat": "US",
+      "active": true
+    }
+  ]
+}

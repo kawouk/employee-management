@@ -1,0 +1,22 @@
+@import "variables";
+@import "mixins";
+@import "fonts";
+
+a {
+  text-decoration: none;
+  transition: $transition;
+  color: white;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: $font-family-base;
+  margin: 0;
+}
+p {
+  font-family: $font-family-base;
+  margin: 0;
+}
